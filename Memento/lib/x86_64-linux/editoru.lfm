@@ -1,0 +1,49 @@
+object EditorFrm: TEditorFrm
+  Left = 428
+  Height = 240
+  Top = 188
+  Width = 320
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'EditorFrm'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.12.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 208
+    Top = 0
+    Width = 320
+    Align = alClient
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 32
+    Top = 208
+    Width = 320
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 32
+    ClientWidth = 320
+    TabOrder = 1
+    object btnShapshot: TButton
+      Left = 216
+      Height = 32
+      Top = 0
+      Width = 104
+      Align = alRight
+      Caption = 'btnShapshot'
+      OnClick = btnShapshotClick
+      TabOrder = 0
+    end
+    object Edit1: TEdit
+      Left = 0
+      Height = 32
+      Top = 0
+      Width = 216
+      Align = alClient
+      TabOrder = 1
+    end
+  end
+end

@@ -1,0 +1,102 @@
+object Form1: TForm1
+  Left = 406
+  Height = 369
+  Top = 190
+  Width = 435
+  Caption = 'Form1'
+  ClientHeight = 369
+  ClientWidth = 435
+  LCLVersion = '2.0.12.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 336
+    Top = 0
+    Width = 435
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'Panel1'
+    ClientHeight = 336
+    ClientWidth = 435
+    TabOrder = 0
+    object lbSource: TListBox
+      Left = 0
+      Height = 336
+      Top = 0
+      Width = 208
+      Align = alLeft
+      Items.Strings = (
+        'car: Mercedes'
+        'human: Mark'
+        'car: BMW'
+        'human: Albert'
+        'car: VW'
+        'human: Genry'
+        'car: Audi'
+        'human: Kate'
+        'car: Skoda'
+        'human: Billy'
+        'car: Hundai'
+        'human: Sara '
+        'car: Saab'
+        'human: Mike'
+        'car: Toyota'
+        'human: Anna'
+      )
+      ItemHeight = 23
+      ScrollWidth = 193
+      TabOrder = 0
+    end
+    object lbDest: TListBox
+      Left = 208
+      Height = 336
+      Top = 0
+      Width = 227
+      Align = alClient
+      ItemHeight = 0
+      ScrollWidth = 225
+      TabOrder = 1
+      TopIndex = -1
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 33
+    Top = 336
+    Width = 435
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 33
+    ClientWidth = 435
+    TabOrder = 1
+    object btnCars: TButton
+      Left = 0
+      Height = 33
+      Top = 0
+      Width = 75
+      Align = alLeft
+      Caption = 'Cars'
+      OnClick = btnClick
+      TabOrder = 0
+    end
+    object btnDrivers: TButton
+      Left = 75
+      Height = 33
+      Top = 0
+      Width = 75
+      Align = alLeft
+      Caption = 'Drivers'
+      OnClick = btnClick
+      TabOrder = 1
+    end
+    object btnAll: TButton
+      Left = 150
+      Height = 33
+      Top = 0
+      Width = 75
+      Align = alLeft
+      Caption = 'All'
+      OnClick = btnClick
+      TabOrder = 2
+    end
+  end
+end

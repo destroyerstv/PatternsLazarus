@@ -1,0 +1,85 @@
+object Form1: TForm1
+  Left = 411
+  Height = 273
+  Top = 161
+  Width = 718
+  Caption = 'Form1'
+  ClientHeight = 273
+  ClientWidth = 718
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object FirstSubcriber: TGroupBox
+    Left = 0
+    Height = 273
+    Top = 0
+    Width = 225
+    Align = alLeft
+    Caption = 'FirstSubcriber'
+    ClientHeight = 255
+    ClientWidth = 223
+    TabOrder = 0
+    object pnlFirst: TPanel
+      Left = 0
+      Height = 255
+      Top = 0
+      Width = 223
+      Align = alClient
+      BevelOuter = bvNone
+      TabOrder = 0
+    end
+  end
+  object Publisher: TGroupBox
+    Left = 228
+    Height = 273
+    Top = 0
+    Width = 252
+    Align = alClient
+    Caption = 'Publisher'
+    ClientHeight = 255
+    ClientWidth = 250
+    TabOrder = 1
+    object pnlPubl: TPanel
+      Left = 0
+      Height = 255
+      Top = 0
+      Width = 250
+      Align = alClient
+      BevelOuter = bvNone
+      TabOrder = 0
+    end
+  end
+  object SecondSubcriber: TGroupBox
+    Left = 482
+    Height = 273
+    Top = 0
+    Width = 236
+    Align = alRight
+    Caption = 'SecondSubcriber'
+    ClientHeight = 255
+    ClientWidth = 234
+    TabOrder = 2
+    object pnlSecond: TPanel
+      Left = 0
+      Height = 255
+      Top = 0
+      Width = 234
+      Align = alClient
+      BevelOuter = bvNone
+      TabOrder = 0
+    end
+  end
+  object spltLeft: TSplitter
+    Left = 225
+    Height = 273
+    Top = 0
+    Width = 3
+  end
+  object spltRight: TSplitter
+    Left = 480
+    Height = 273
+    Top = 0
+    Width = 2
+    Align = alRight
+    ResizeAnchor = akRight
+  end
+end

@@ -1,0 +1,7 @@
+/home/killer-app/Projects/Lazarus/MyProj/Patterns/AbstractFabric/project1 
+Heap dump by heaptrc unit of /home/killer-app/Projects/Lazarus/MyProj/Patterns/AbstractFabric/project1
+2967 memory blocks allocated : 1812752/1817104
+2967 memory blocks freed     : 1812752/1817104
+0 unfreed memory blocks : 0
+True heap size : 1671168
+True free heap : 1671168

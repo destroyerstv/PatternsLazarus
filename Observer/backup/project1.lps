@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="2"/>
+        <CursorPos X="55" Y="21"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <TopLine Value="26"/>
+        <CursorPos X="51" Y="56"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="firstsubscriberfrmu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FirstSubscriberFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FirstSubscriberFrmU"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="40"/>
+        <CursorPos X="19" Y="57"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="secondsubscriberfrmu.pas"/>
+        <ComponentName Value="SecondSubscriberFrm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SecondSubscriberFrmU"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="subsribes_itnf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Subsribes_Itnf"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="6"/>
+        <CursorPos X="17" Y="17"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="publishermngru.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PublisherMngrU"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="7"/>
+        <CursorPos X="59" Y="15"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="publisherfrmu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PublisherFrm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PublisherFrmU"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="42" Y="22"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/usr/lib/fpc/3.2.2/source/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="195"/>
+        <CursorPos X="23" Y="206"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/share/lazarus/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="747"/>
+        <CursorPos X="44" Y="758"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="publishermngru.pas"/>
+        <Caret Line="19" Column="22" TopLine="11"/>
+      </Position1>
+      <Position2>
+        <Filename Value="publishermngru.pas"/>
+        <Caret Line="4" Column="34" TopLine="22"/>
+      </Position2>
+      <Position3>
+        <Filename Value="publishermngru.pas"/>
+        <Caret Line="22" Column="36" TopLine="10"/>
+      </Position3>
+      <Position4>
+        <Filename Value="publishermngru.pas"/>
+        <Caret Line="32" Column="42" TopLine="21"/>
+      </Position4>
+      <Position5>
+        <Filename Value="publisherfrmu.pas"/>
+        <Caret Column="19" TopLine="5"/>
+      </Position5>
+      <Position6>
+        <Filename Value="publisherfrmu.pas"/>
+        <Caret Line="22" Column="18" TopLine="10"/>
+      </Position6>
+      <Position7>
+        <Filename Value="publishermngru.pas"/>
+        <Caret Line="19" Column="20" TopLine="7"/>
+      </Position7>
+      <Position8>
+        <Filename Value="publishermngru.pas"/>
+        <Caret Line="37" Column="24" TopLine="22"/>
+      </Position8>
+      <Position9>
+        <Filename Value="publishermngru.pas"/>
+        <Caret Line="17" Column="30" TopLine="8"/>
+      </Position9>
+      <Position10>
+        <Filename Value="publishermngru.pas"/>
+        <Caret Line="19" Column="20" TopLine="8"/>
+      </Position10>
+      <Position11>
+        <Filename Value="publisherfrmu.pas"/>
+        <Caret Line="22" Column="21" TopLine="15"/>
+      </Position11>
+      <Position12>
+        <Filename Value="publisherfrmu.pas"/>
+        <Caret Line="21" Column="24" TopLine="15"/>
+      </Position12>
+      <Position13>
+        <Filename Value="publisherfrmu.pas"/>
+        <Caret Line="47" Column="39" TopLine="30"/>
+      </Position13>
+      <Position14>
+        <Filename Value="publisherfrmu.pas"/>
+        <Caret Line="12" Column="49"/>
+      </Position14>
+      <Position15>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="20" Column="10" TopLine="9"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="46" Column="56" TopLine="39"/>
+      </Position16>
+      <Position17>
+        <Filename Value="publisherfrmu.pas"/>
+        <Caret Line="38" Column="20" TopLine="25"/>
+      </Position17>
+      <Position18>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="46" Column="56" TopLine="39"/>
+      </Position18>
+      <Position19>
+        <Filename Value="publisherfrmu.pas"/>
+        <Caret Line="22" Column="54" TopLine="13"/>
+      </Position19>
+      <Position20>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="59" Column="61" TopLine="44"/>
+      </Position20>
+      <Position21>
+        <Filename Value="firstsubscriberfrmu.pas"/>
+        <Caret Line="22" Column="20" TopLine="14"/>
+      </Position21>
+      <Position22>
+        <Filename Value="firstsubscriberfrmu.pas"/>
+        <Caret Line="38" Column="9" TopLine="26"/>
+      </Position22>
+      <Position23>
+        <Filename Value="firstsubscriberfrmu.pas"/>
+        <Caret Line="46" Column="27" TopLine="29"/>
+      </Position23>
+      <Position24>
+        <Filename Value="firstsubscriberfrmu.pas"/>
+        <Caret Line="43" Column="60" TopLine="29"/>
+      </Position24>
+      <Position25>
+        <Filename Value="subsribes_itnf.pas"/>
+        <Caret Line="14" Column="36"/>
+      </Position25>
+      <Position26>
+        <Filename Value="firstsubscriberfrmu.pas"/>
+        <Caret Line="43" Column="90" TopLine="29"/>
+      </Position26>
+      <Position27>
+        <Filename Value="firstsubscriberfrmu.pas"/>
+        <Caret Line="41" Column="34" TopLine="32"/>
+      </Position27>
+      <Position28>
+        <Filename Value="firstsubscriberfrmu.pas"/>
+        <Caret Line="46" Column="3" TopLine="36"/>
+      </Position28>
+      <Position29>
+        <Filename Value="firstsubscriberfrmu.pas"/>
+        <Caret Line="25" Column="45" TopLine="14"/>
+      </Position29>
+      <Position30>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="56" Column="51" TopLine="26"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

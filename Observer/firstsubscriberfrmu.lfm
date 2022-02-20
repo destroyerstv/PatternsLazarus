@@ -1,0 +1,51 @@
+object FirstSubscriberFrm: TFirstSubscriberFrm
+  Left = 464
+  Height = 240
+  Top = 241
+  Width = 320
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'FirstSubscriberFrm'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.12.0'
+  object Memo: TMemo
+    Left = 0
+    Height = 208
+    Top = 0
+    Width = 320
+    Align = alClient
+    TabOrder = 0
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 32
+    Top = 208
+    Width = 320
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 32
+    ClientWidth = 320
+    TabOrder = 1
+    object btnSubscribe: TButton
+      Left = 96
+      Height = 32
+      Top = 0
+      Width = 112
+      Align = alRight
+      Caption = 'btnSubscribe'
+      OnClick = btnSubscribeClick
+      TabOrder = 0
+    end
+    object btnUnSubscribe: TButton
+      Left = 208
+      Height = 32
+      Top = 0
+      Width = 112
+      Align = alRight
+      Caption = 'btnUnSubscribe'
+      OnClick = btnUnSubscribeClick
+      TabOrder = 1
+    end
+  end
+end

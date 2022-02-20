@@ -1,0 +1,85 @@
+object Form1: TForm1
+  Left = 497
+  Height = 240
+  Top = 227
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.10.0'
+  object var1: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 25
+    Caption = 'var1'
+    ParentColor = False
+  end
+  object edtVar1: TEdit
+    Left = 8
+    Height = 26
+    Top = 24
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 0
+  end
+  object edtVar2: TEdit
+    Left = 96
+    Height = 26
+    Top = 24
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 1
+  end
+  object edtRez: TEdit
+    Left = 200
+    Height = 26
+    Top = 24
+    Width = 80
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object var2: TLabel
+    Left = 96
+    Height = 15
+    Top = 8
+    Width = 25
+    Caption = 'var2'
+    ParentColor = False
+  end
+  object result: TLabel
+    Left = 200
+    Height = 15
+    Top = 8
+    Width = 32
+    Caption = 'result'
+    ParentColor = False
+  end
+  object rbPlus: TRadioButton
+    Left = 8
+    Height = 21
+    Top = 72
+    Width = 58
+    Caption = 'rbPlus'
+    Checked = True
+    TabOrder = 5
+    TabStop = True
+  end
+  object rbMinus: TRadioButton
+    Left = 8
+    Height = 21
+    Top = 104
+    Width = 69
+    Caption = 'rbMinus'
+    TabOrder = 3
+  end
+  object btnOK: TButton
+    Left = 8
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = 'OK'
+    OnClick = btnOKClick
+    TabOrder = 4
+  end
+end

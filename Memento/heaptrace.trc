@@ -1,0 +1,7 @@
+/home/killer-app/Projects/Lazarus/Patterns/Memento/project1 
+Heap dump by heaptrc unit of /home/killer-app/Projects/Lazarus/Patterns/Memento/project1
+2295 memory blocks allocated : 1779589/1783224
+2295 memory blocks freed     : 1779589/1783224
+0 unfreed memory blocks : 0
+True heap size : 1605632
+True free heap : 1605632

@@ -1,0 +1,141 @@
+object Form1: TForm1
+  Left = 397
+  Height = 270
+  Top = 152
+  Width = 513
+  Caption = 'Form1'
+  ClientHeight = 270
+  ClientWidth = 513
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object pnlLeft: TPanel
+    Left = 0
+    Height = 240
+    Top = 0
+    Width = 176
+    Align = alLeft
+    BevelOuter = bvNone
+    ClientHeight = 240
+    ClientWidth = 176
+    TabOrder = 0
+    object Memo: TMemo
+      Left = 0
+      Height = 240
+      Top = 0
+      Width = 176
+      Align = alClient
+      TabOrder = 0
+    end
+  end
+  object pnlClient: TPanel
+    Left = 181
+    Height = 240
+    Top = 0
+    Width = 332
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 240
+    ClientWidth = 332
+    TabOrder = 1
+    object rgStrategies: TRadioGroup
+      Left = 0
+      Height = 240
+      Top = 0
+      Width = 104
+      Align = alLeft
+      AutoFill = True
+      Caption = 'Strategies'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 222
+      ClientWidth = 102
+      TabOrder = 0
+      object rbPositive: TRadioButton
+        Left = 6
+        Height = 56
+        Top = 0
+        Width = 90
+        Caption = 'Positive'
+        Checked = True
+        TabOrder = 0
+      end
+      object rbNegative: TRadioButton
+        Left = 6
+        Height = 56
+        Top = 56
+        Width = 90
+        Caption = 'Negative'
+        TabOrder = 1
+      end
+      object rbEven: TRadioButton
+        Left = 6
+        Height = 56
+        Top = 112
+        Width = 90
+        Caption = 'Even'
+        TabOrder = 2
+      end
+      object rbOdd: TRadioButton
+        Left = 6
+        Height = 54
+        Top = 168
+        Width = 90
+        Caption = 'Odd'
+        TabOrder = 3
+      end
+    end
+    object ListBox1: TListBox
+      Left = 104
+      Height = 240
+      Top = 0
+      Width = 228
+      Align = alClient
+      ItemHeight = 0
+      ScrollWidth = 226
+      TabOrder = 1
+      TopIndex = -1
+    end
+  end
+  object Splitter1: TSplitter
+    Left = 176
+    Height = 240
+    Top = 0
+    Width = 5
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 30
+    Top = 240
+    Width = 513
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 30
+    ClientWidth = 513
+    TabOrder = 3
+    object btnGet: TButton
+      Left = 363
+      Height = 30
+      Top = 0
+      Width = 75
+      Align = alRight
+      Caption = 'Get'
+      OnClick = btnGetClick
+      TabOrder = 0
+    end
+    object btnClear: TButton
+      Left = 438
+      Height = 30
+      Top = 0
+      Width = 75
+      Align = alRight
+      Caption = 'Clear'
+      OnClick = btnClearClick
+      TabOrder = 1
+    end
+  end
+end

@@ -1,0 +1,58 @@
+object MainFrm: TMainFrm
+  Left = 389
+  Height = 367
+  Top = 205
+  Width = 506
+  Caption = 'MainFrm'
+  ClientHeight = 367
+  ClientWidth = 506
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object pnlLeft: TPanel
+    Left = 0
+    Height = 325
+    Top = 0
+    Width = 233
+    Align = alLeft
+    BevelOuter = bvNone
+    TabOrder = 0
+  end
+  object pnlRight: TPanel
+    Left = 238
+    Height = 325
+    Top = 0
+    Width = 268
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 325
+    ClientWidth = 268
+    TabOrder = 1
+    object ListBox1: TListBox
+      Left = 0
+      Height = 325
+      Top = 0
+      Width = 268
+      Align = alClient
+      ItemHeight = 0
+      OnDblClick = ListBox1DblClick
+      ScrollWidth = 266
+      TabOrder = 0
+      TopIndex = -1
+    end
+  end
+  object Splitter1: TSplitter
+    Left = 233
+    Height = 325
+    Top = 0
+    Width = 5
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 42
+    Top = 325
+    Width = 506
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 3
+  end
+end

@@ -1,0 +1,46 @@
+object FrmChecker: TFrmChecker
+  Left = 466
+  Height = 119
+  Top = 157
+  Width = 190
+  AutoSize = True
+  BorderStyle = bsDialog
+  Caption = 'FrmChecker'
+  ClientHeight = 119
+  ClientWidth = 190
+  OnCreate = FormCreate
+  Position = poOwnerFormCenter
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 15
+    Top = 10
+    Width = 170
+    Align = alTop
+    BorderSpacing.Around = 10
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 10
+    Height = 25
+    Top = 71
+    Width = 170
+    Align = alTop
+    BorderSpacing.Around = 10
+    Caption = 'Check'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 10
+    Height = 26
+    Top = 35
+    Width = 170
+    Align = alTop
+    AutoSize = False
+    BorderSpacing.Around = 10
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+end

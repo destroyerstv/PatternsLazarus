@@ -1,0 +1,7 @@
+/home/killer-app/Projects/Lazarus/MyProj/Patterns/FabricMethod/FabricMethodProj 
+Heap dump by heaptrc unit of /home/killer-app/Projects/Lazarus/MyProj/Patterns/FabricMethod/FabricMethodProj
+1869 memory blocks allocated : 1750623/1753576
+1869 memory blocks freed     : 1750623/1753576
+0 unfreed memory blocks : 0
+True heap size : 1605632
+True free heap : 1605632

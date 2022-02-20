@@ -1,0 +1,8 @@
+object SecondSubscriberFrm: TSecondSubscriberFrm
+  Left = 490
+  Height = 240
+  Top = 247
+  Width = 320
+  Caption = 'SecondSubscriberFrm'
+  LCLVersion = '2.0.12.0'
+end

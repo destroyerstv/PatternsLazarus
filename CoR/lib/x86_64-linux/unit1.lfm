@@ -1,0 +1,57 @@
+object MainForm: TMainForm
+  Left = 804
+  Height = 146
+  Top = 90
+  Width = 231
+  Caption = 'MainForm'
+  ClientHeight = 146
+  ClientWidth = 231
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 15
+    Top = 10
+    Width = 211
+    Align = alTop
+    BorderSpacing.Around = 10
+    Caption = 'Role: '
+    ParentColor = False
+  end
+  object edtLogin: TEdit
+    Left = 10
+    Height = 26
+    Top = 35
+    Width = 211
+    Align = alTop
+    BorderSpacing.Around = 10
+    OnEnter = edtEnter
+    OnExit = edtExit
+    TabOrder = 0
+    Text = 'Login'
+  end
+  object edtPass: TEdit
+    Left = 10
+    Height = 26
+    Top = 71
+    Width = 211
+    Align = alTop
+    BorderSpacing.Around = 10
+    OnEnter = edtEnter
+    OnExit = edtExit
+    OnKeyDown = edtPassKeyDown
+    TabOrder = 1
+    Text = 'Pass'
+  end
+  object Button1: TButton
+    Left = 10
+    Height = 25
+    Top = 107
+    Width = 211
+    Align = alTop
+    BorderSpacing.Around = 10
+    Caption = 'OK'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+end

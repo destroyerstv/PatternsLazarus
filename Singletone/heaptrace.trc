@@ -1,0 +1,7 @@
+/home/killer-app/Projects/Lazarus/MyProj/Patterns/Singletone/project1 
+Heap dump by heaptrc unit of /home/killer-app/Projects/Lazarus/MyProj/Patterns/Singletone/project1
+1102 memory blocks allocated : 1696977/1698576
+1102 memory blocks freed     : 1696977/1698576
+0 unfreed memory blocks : 0
+True heap size : 1605632
+True free heap : 1605632
